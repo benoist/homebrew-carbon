@@ -1,6 +1,6 @@
 require "formula"
 
-class Shards < Formula
+class Carbon < Formula
   homepage "https://github.com/benoist/carbon-crystal"
   head "https://github.com/benoist/carbon-crystal.git"
   url "https://github.com/benoist/carbon-crystal/archive/v0.1.0.tar.gz"
