@@ -4,7 +4,7 @@ class Carbon < Formula
   homepage "https://github.com/benoist/carbon-crystal"
   head "https://github.com/benoist/carbon-crystal.git"
   url "https://github.com/benoist/carbon-crystal/archive/v0.1.0.tar.gz"
-  sha256 "ab72ca9a6f571330561619d91e3e9a56f0993be8da3b8764efec2014976129cb"
+  sha256 "2a4395881499cb260791fae42f95dd45ec351bbca4f1d99f3f1dc76cd54ceb16"
 
   depends_on "crystal-lang" => :build
 
