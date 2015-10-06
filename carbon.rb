@@ -5,7 +5,7 @@ class Carbon < Formula
   head "https://github.com/benoist/carbon-crystal.git"
 
   def install
-    system "crystal", "build", "-o", "bin/carbon", "src/command.cr", "--release"
+    system "crystal", "build", "-o", "bin/carbon", "src/command.cr"
     prefix.install "bin"
   end
 end
