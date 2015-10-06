@@ -10,6 +10,6 @@ class Carbon < Formula
 
   def install
     system "crystal", "build", "-o", "bin/carbon", "src/command.cr", "--release"
-    prefix.install "bin"
+    bin.install "bin/carbon"
   end
 end
